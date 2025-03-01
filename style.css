@@ -418,7 +418,7 @@ body {
   position: absolute;
   width: 323px;
   top: 16px;
-  left: 106px;
+  left: 24px;
   font-family: "Poppins", Helvetica;
   font-weight: 600;
   color: #ffffff;
@@ -432,8 +432,8 @@ body {
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 22px;
-  left: 49px;
+  bottom: 120px;
+  left: 180px;
   object-fit: cover;
 }
 
@@ -508,7 +508,7 @@ body {
   position: absolute;
   width: 410px;
   height: 45px;
-  top: 0;
+  bottom: 75px;
   left: 0;
 }
 
@@ -516,6 +516,6 @@ body {
   position: absolute;
   width: 314px;
   height: 41px;
-  top: 2px;
+  bottom: 75px;
   left: 124px;
 }
