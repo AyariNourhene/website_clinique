@@ -1,0 +1,209 @@
+/* Reset des styles par défaut */
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F0F8FF; /* Fond de page léger */
+   /* color: #1034A6; /* Couleur de texte principale */
+/*}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+/*.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1034A6; /* Fond du header */
+   /* padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.website_name h1 {
+    color: #F0F8FF; /* Texte clair pour contraster avec le fond */
+   /* font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.website_name .slogan {
+    color: #50C878; /* Couleur verte pour le slogan */
+   /* font-size: 1.2rem;
+    font-style: italic;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #F0F8FF; /* Texte clair pour les liens */
+   /* font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #50C878; /* Changement de couleur au survol */
+/*}
+
+/* Contenu principal */
+/*.content {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.content h2 {
+    color: #1034A6; /* Couleur du titre */
+  /*  font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #708090; /* Couleur du texte secondaire */
+   /* font-size: 1.2rem;
+}
+
+/* Footer */
+/*.footer {
+    background-color: #1034A6; /* Fond du footer */
+    /*color: #F0F8FF; /* Texte clair */
+   /* padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+}
+
+.footer-content a {
+    color: #50C878; /* Couleur des liens */
+   /* text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #6495ED; /* Changement de couleur au survol */
+/*}
+*/
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F8FF; /* Alice Blue */
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header avec dégradé */
+.header {
+    background: linear-gradient(to right, #F0F8FF, #6495ED); /* Dégradé de gauche (blanc) à droite (bleu) */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+
+/* Logo ajusté à la taille du texte */
+.logo img {
+    height: 90px; /* Ajuste la hauteur du logo pour qu'elle corresponde à l'écriture */
+}
+
+/* Style du nom du site et du slogan en bleu */
+.website_name h1, 
+.website_name .slogan {
+    color: #1034A6; /* Bleu profond */
+    margin: 0;
+}
+
+
+/* Ajustement du conteneur pour aligner le logo et le texte */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacement entre le logo et le texte */
+}
+
+
+
+/* Menu de navigation */
+.menu ul {
+    margin-left: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: white;
+    color:#1034A6; 
+}
+
+/* Contenu principal */
+.content {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #708090; /* Slate Gray */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.footer a {
+    color: #F0F8FF; /* Alice Blue */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
