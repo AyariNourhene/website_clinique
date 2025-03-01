@@ -207,3 +207,315 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .desktop-wrapper {
+  width: 1440px;
+  height: 1024px;
+}
+
+.frame .desktop {
+  position: relative;
+  height: 1024px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.frame .helo {
+  position: absolute;
+  width: 1776px;
+  height: 715px;
+  top: 21px;
+  left: -30px;
+}
+
+.frame .frame-wrapper {
+  position: relative;
+  width: 1724px;
+  height: 658px;
+  top: 57px;
+  left: 52px;
+}
+
+.frame .div {
+  position: relative;
+  width: 1776px;
+  height: 715px;
+  left: -120px;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: -33px;
+  left: 670px;
+  font-family: "PT Serif", Helvetica;
+  font-weight: 400;
+  color: #1034a6;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1435px;
+  height: 812px;
+  top: 97px;
+  left: 98px;
+  background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-3.png);
+  background-size: 100% 100%;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1432px;
+  height: 262px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-36.svg);
+  background-size: 100% 100%;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 391px;
+  height: 224px;
+  top: 30px;
+  left: 20px;
+}
+
+.frame .excellence {
+  position: absolute;
+  width: 391px;
+  height: 224px;
+  top: 0;
+  left: 0;
+}
+
+.frame .overlap-group-2 {
+  position: relative;
+  width: 387px;
+  height: 231px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 340px;
+  height: 231px;
+  top: 0;
+  left: 23px;
+  object-fit: cover;
+}
+
+.frame .img {
+  position: absolute;
+  width: 387px;
+  height: 49px;
+  top: 13px;
+  left: 0;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 178px;
+  top: 16px;
+  left: 127px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text {
+  position: absolute;
+  width: 270px;
+  top: 85px;
+  left: 74px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #0000009e;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .emergency-img {
+  position: absolute;
+  width: 39px;
+  height: 49px;
+  top: 8px;
+  left: 63px;
+  object-fit: cover;
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 391px;
+  height: 224px;
+  top: 30px;
+  left: 518px;
+}
+
+.frame .rectangle-2 {
+  height: 49px;
+  background-color: #6495ed;
+  border-radius: 10px;
+  position: absolute;
+  width: 387px;
+  top: 13px;
+  left: 0;
+}
+
+.frame .pediatrics-img {
+  position: absolute;
+  width: 40px;
+  height: 46px;
+  top: 10px;
+  left: 54px;
+  object-fit: cover;
+}
+
+.frame .overlap-4 {
+  position: absolute;
+  width: 433px;
+  height: 224px;
+  top: 30px;
+  left: 994px;
+}
+
+.frame .overlap-wrapper {
+  width: 433px;
+  position: absolute;
+  height: 224px;
+  top: 0;
+  left: 0;
+}
+
+.frame .overlap-5 {
+  position: relative;
+  width: 429px;
+  height: 231px;
+}
+
+.frame .rectangle-3 {
+  height: 112px;
+  position: absolute;
+  width: 387px;
+  top: 13px;
+  left: 20px;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 323px;
+  top: 16px;
+  left: 106px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .gynecology-img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 22px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.frame .overlap-6 {
+  position: absolute;
+  width: 391px;
+  height: 224px;
+  top: 318px;
+  left: 520px;
+}
+
+.frame .neurology-img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 8px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.frame .overlap-7 {
+  position: absolute;
+  width: 389px;
+  height: 224px;
+  top: 314px;
+  left: 34px;
+}
+
+.frame .overlap-group-wrapper {
+  width: 389px;
+  position: absolute;
+  height: 224px;
+  top: 0;
+  left: 0;
+}
+
+.frame .cardiology-img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  left: 63px;
+  object-fit: cover;
+}
+
+.frame .overlap-8 {
+  position: absolute;
+  width: 389px;
+  height: 224px;
+  top: 322px;
+  left: 993px;
+}
+
+.frame .pyschiatry-img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 12px;
+  left: 57px;
+  object-fit: cover;
+}
+
+.frame .overlap-9 {
+  position: absolute;
+  width: 438px;
+  height: 45px;
+  top: 849px;
+  left: 499px;
+}
+
+.frame .rectangle-4 {
+  position: absolute;
+  width: 410px;
+  height: 45px;
+  top: 0;
+  left: 0;
+}
+
+.frame .group {
+  position: absolute;
+  width: 314px;
+  height: 41px;
+  top: 2px;
+  left: 124px;
+}
