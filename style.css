@@ -217,12 +217,12 @@ body {
 
 .frame .desktop-wrapper {
   width: 1440px;
-  height: 1024px;
+  height: 1460px;
 }
 
 .frame .desktop {
   position: relative;
-  height: 1024px;
+  height: 1460px;
   background-color: #ffffff;
   overflow: hidden;
 }
@@ -265,7 +265,7 @@ body {
 .frame .overlap {
   position: absolute;
   width: 1435px;
-  height: 812px;
+  height: 1460px;
   top: 97px;
   left: 98px;
   background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-3.png);
@@ -518,4 +518,72 @@ body {
   height: 41px;
   bottom: 75px;
   left: 124px;
+}
+
+
+.frame .overlap-10 {
+  position: absolute;
+  width: 25%;
+  height: 224px;
+  top: 950px;
+  left: 10px;
+}
+
+.frame .overlap-11 {
+  position: absolute;
+  width: 25%;
+  height: 224px;
+  top: 950px;
+  left: 410px;
+}
+.frame .overlap-12 {
+  position: absolute;
+  width: 25%;
+  height: 224px;
+  top: 950px;
+  left: 815px;
+}
+.frame .im {
+  width: 340px;
+  height: 231px;
+  top: 0;
+  left: 23px;
+  object-fit: scale-down;
+}
+.frame .valeur {
+  top: -33px;
+  left: 670px;
+  font-family: "inter", Helvetica;
+  font-weight: 400;
+  background-color: #1034a6;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  border-radius: 16px;
+}
+.frame .value {
+  top: -33px;
+  left: 670px;
+  font-family: "Inknut Antiqua, Helvetica";
+  font-weight: 400;
+  background-color: #1034a6;
+  color: #F0F8FF;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: normal;
+  border-radius: 16px;
+}
+.frame .values {
+  position: absolute;
+  left: -125px;
+  top: 850px;
+  font-weight: 400;
+  color: #1034a6;
+  font-size: 55px;
+  letter-spacing: 0px;
+  /* background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-36.svg); */
+  background-color: #f0f8ff;
+  width: 1432px;
+  height: 84px;
 }
