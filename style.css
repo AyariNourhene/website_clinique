@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #F0F8FF; /* Fond de page léger */
-   /* color: #1034A6; /* Couleur de texte principale */
+/* color: #1034A6; /* Couleur de texte principale */
 /*}
 
 .container {
@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1034A6; /* Fond du header */
-   /* padding: 20px;
+/* padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -36,13 +36,13 @@ body {
 
 .website_name h1 {
     color: #F0F8FF; /* Texte clair pour contraster avec le fond */
-   /* font-size: 2.5rem;
+/* font-size: 2.5rem;
     margin-bottom: 5px;
 }
 
 .website_name .slogan {
     color: #50C878; /* Couleur verte pour le slogan */
-   /* font-size: 1.2rem;
+/* font-size: 1.2rem;
     font-style: italic;
 }
 
@@ -55,7 +55,7 @@ body {
 .menu ul li a {
     text-decoration: none;
     color: #F0F8FF; /* Texte clair pour les liens */
-   /* font-size: 1.1rem;
+/* font-size: 1.1rem;
     transition: color 0.3s ease;
 }
 
@@ -71,20 +71,20 @@ body {
 
 .content h2 {
     color: #1034A6; /* Couleur du titre */
-  /*  font-size: 2rem;
+/*  font-size: 2rem;
     margin-bottom: 20px;
 }
 
 .content p {
     color: #708090; /* Couleur du texte secondaire */
-   /* font-size: 1.2rem;
+/* font-size: 1.2rem;
 }
 
 /* Footer */
 /*.footer {
     background-color: #1034A6; /* Fond du footer */
-    /*color: #F0F8FF; /* Texte clair */
-   /* padding: 20px;
+/*color: #F0F8FF; /* Texte clair */
+/* padding: 20px;
     text-align: center;
     border-radius: 10px;
     margin-top: 40px;
@@ -96,7 +96,7 @@ body {
 
 .footer-content a {
     color: #50C878; /* Couleur des liens */
-   /* text-decoration: none;
+/* text-decoration: none;
     transition: color 0.3s ease;
 }
 
@@ -107,7 +107,8 @@ body {
 /* Styles généraux */
 body {
     font-family: Arial, sans-serif;
-    background-color: #F0F8FF; /* Alice Blue */
+    background-color: #F0F8FF;
+    /* Alice Blue */
     margin: 0;
     padding: 0;
 }
@@ -120,7 +121,8 @@ body {
 
 /* Header avec dégradé */
 .header {
-    background: linear-gradient(to right, #F0F8FF, #6495ED); /* Dégradé de gauche (blanc) à droite (bleu) */
+    background: linear-gradient(to right, #F0F8FF, #6495ED);
+    /* Dégradé de gauche (blanc) à droite (bleu) */
     color: white;
     display: flex;
     align-items: center;
@@ -133,13 +135,15 @@ body {
 
 /* Logo ajusté à la taille du texte */
 .logo img {
-    height: 90px; /* Ajuste la hauteur du logo pour qu'elle corresponde à l'écriture */
+    height: 90px;
+    /* Ajuste la hauteur du logo pour qu'elle corresponde à l'écriture */
 }
 
 /* Style du nom du site et du slogan en bleu */
-.website_name h1, 
+.website_name h1,
 .website_name .slogan {
-    color: #1034A6; /* Bleu profond */
+    color: #1034A6;
+    /* Bleu profond */
     margin: 0;
 }
 
@@ -148,7 +152,8 @@ body {
 .header {
     display: flex;
     align-items: center;
-    gap: 15px; /* Espacement entre le logo et le texte */
+    gap: 15px;
+    /* Espacement entre le logo et le texte */
 }
 
 
@@ -177,7 +182,7 @@ body {
 
 .menu ul li a:hover {
     background-color: white;
-    color:#1034A6; 
+    color: #1034A6;
 }
 
 /* Contenu principal */
@@ -191,7 +196,8 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #708090; /* Slate Gray */
+    background-color: #708090;
+    /* Slate Gray */
     color: white;
     text-align: center;
     padding: 15px;
@@ -200,390 +206,423 @@ body {
 }
 
 .footer a {
-    color: #F0F8FF; /* Alice Blue */
+    color: #F0F8FF;
+    /* Alice Blue */
     text-decoration: none;
 }
 
 .footer a:hover {
     text-decoration: underline;
 }
+
 .frame {
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
 
 .frame .desktop-wrapper {
-  width: 1440px;
-  height: 1460px;
+    width: 1440px;
+    height: 1460px;
 }
 
 .frame .desktop {
-  position: relative;
-  height: 1460px;
-  background-color: #ffffff;
-  overflow: hidden;
+    position: relative;
+    height: 1460px;
+    background-color: #ffffff;
+    overflow: hidden;
 }
 
 .frame .helo {
-  position: absolute;
-  width: 1776px;
-  height: 715px;
-  top: 21px;
-  left: -30px;
+    position: absolute;
+    width: 1776px;
+    height: 715px;
+    top: 21px;
+    left: -30px;
 }
 
 .frame .frame-wrapper {
-  position: relative;
-  width: 1724px;
-  height: 658px;
-  top: 57px;
-  left: 52px;
+    position: relative;
+    width: 1724px;
+    height: 658px;
+    top: 57px;
+    left: 52px;
 }
 
 .frame .div {
-  position: relative;
-  width: 1776px;
-  height: 715px;
-  left: -120px;
+    position: relative;
+    width: 1776px;
+    height: 715px;
+    left: -120px;
 }
 
 .frame .text-wrapper {
-  position: absolute;
-  top: -33px;
-  left: 670px;
-  font-family: "PT Serif", Helvetica;
-  font-weight: 400;
-  color: #1034a6;
-  font-size: 55px;
-  letter-spacing: 0;
-  line-height: normal;
+    position: absolute;
+    top: -33px;
+    left: 670px;
+    font-family: "PT Serif", Helvetica;
+    font-weight: 400;
+    color: #1034a6;
+    font-size: 55px;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
 .frame .overlap {
-  position: absolute;
-  width: 1435px;
-  height: 1460px;
-  top: 97px;
-  left: 98px;
-  background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-3.png);
-  background-size: 100% 100%;
+    position: absolute;
+    width: 1435px;
+    height: 1460px;
+    top: 97px;
+    left: 98px;
+    background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-3.png);
+    background-size: 100% 100%;
 }
 
 .frame .overlap-group {
-  position: absolute;
-  width: 1432px;
-  height: 262px;
-  top: 0;
-  left: 0;
-  background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-36.svg);
-  background-size: 100% 100%;
+    position: absolute;
+    width: 1432px;
+    height: 262px;
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-36.svg);
+    background-size: 100% 100%;
 }
 
 .frame .overlap-2 {
-  position: absolute;
-  width: 391px;
-  height: 224px;
-  top: 30px;
-  left: 20px;
+    position: absolute;
+    width: 391px;
+    height: 224px;
+    top: 30px;
+    left: 20px;
 }
 
 .frame .excellence {
-  position: absolute;
-  width: 391px;
-  height: 224px;
-  top: 0;
-  left: 0;
+    position: absolute;
+    width: 391px;
+    height: 224px;
+    top: 0;
+    left: 0;
 }
 
 .frame .overlap-group-2 {
-  position: relative;
-  width: 387px;
-  height: 231px;
+    position: relative;
+    width: 387px;
+    height: 231px;
 }
 
 .frame .rectangle {
-  position: absolute;
-  width: 340px;
-  height: 231px;
-  top: 0;
-  left: 23px;
-  object-fit: cover;
+    position: absolute;
+    width: 340px;
+    height: 231px;
+    top: 0;
+    left: 23px;
+    object-fit: cover;
 }
 
 .frame .img {
-  position: absolute;
-  width: 387px;
-  height: 49px;
-  top: 13px;
-  left: 0;
+    position: absolute;
+    width: 387px;
+    height: 49px;
+    top: 13px;
+    left: 0;
 }
 
+
 .frame .text-wrapper-2 {
-  position: absolute;
-  width: 178px;
-  top: 16px;
-  left: 127px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 28px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+    position: absolute;
+    width: 178px;
+    top: 16px;
+    left: 127px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
 }
 
 .frame .text {
-  position: absolute;
-  width: 270px;
-  top: 85px;
-  left: 74px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 500;
-  color: #0000009e;
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: normal;
+    position: absolute;
+    width: 270px;
+    top: 85px;
+    left: 74px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #0000009e;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
 .frame .emergency-img {
-  position: absolute;
-  width: 39px;
-  height: 49px;
-  top: 8px;
-  left: 63px;
-  object-fit: cover;
+    position: absolute;
+    width: 39px;
+    height: 49px;
+    top: 8px;
+    left: 63px;
+    object-fit: cover;
 }
 
 .frame .overlap-3 {
-  position: absolute;
-  width: 391px;
-  height: 224px;
-  top: 30px;
-  left: 518px;
+    position: absolute;
+    width: 391px;
+    height: 224px;
+    top: 30px;
+    left: 518px;
 }
 
 .frame .rectangle-2 {
-  height: 49px;
-  background-color: #6495ed;
-  border-radius: 10px;
-  position: absolute;
-  width: 387px;
-  top: 13px;
-  left: 0;
+    height: 49px;
+    background-color: #6495ed;
+    border-radius: 10px;
+    position: absolute;
+    width: 387px;
+    top: 13px;
+    left: 0;
 }
 
+
 .frame .pediatrics-img {
-  position: absolute;
-  width: 40px;
-  height: 46px;
-  top: 10px;
-  left: 54px;
-  object-fit: cover;
+    position: absolute;
+    width: 40px;
+    height: 46px;
+    top: 10px;
+    left: 54px;
+    object-fit: cover;
 }
 
 .frame .overlap-4 {
-  position: absolute;
-  width: 433px;
-  height: 224px;
-  top: 30px;
-  left: 994px;
+    position: absolute;
+    width: 433px;
+    height: 224px;
+    top: 30px;
+    left: 994px;
+}
+.frame .overlap-group-2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.frame .overlap-5:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.frame .overlap-2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.frame .overlap-3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.frame .overlap-9:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.frame .overlap-6:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
 .frame .overlap-wrapper {
-  width: 433px;
-  position: absolute;
-  height: 224px;
-  top: 0;
-  left: 0;
+    width: 433px;
+    position: absolute;
+    height: 224px;
+    top: 0;
+    left: 0;
 }
 
 .frame .overlap-5 {
-  position: relative;
-  width: 429px;
-  height: 231px;
+    position: relative;
+    width: 429px;
+    height: 231px;
 }
 
 .frame .rectangle-3 {
-  height: 112px;
-  position: absolute;
-  width: 387px;
-  top: 13px;
-  left: 20px;
+    height: 112px;
+    position: absolute;
+    width: 387px;
+    top: 13px;
+    left: 20px;
 }
 
 .frame .text-wrapper-3 {
-  position: absolute;
-  width: 323px;
-  top: 16px;
-  left: 24px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 28px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+    position: absolute;
+    width: 323px;
+    top: 16px;
+    left: 24px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
 }
 
 .frame .gynecology-img {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  bottom: 120px;
-  left: 180px;
-  object-fit: cover;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 120px;
+    left: 180px;
+    object-fit: cover;
 }
 
 .frame .overlap-6 {
-  position: absolute;
-  width: 391px;
-  height: 224px;
-  top: 318px;
-  left: 520px;
+    position: absolute;
+    width: 391px;
+    height: 224px;
+    top: 318px;
+    left: 520px;
 }
 
 .frame .neurology-img {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 8px;
-  left: 49px;
-  object-fit: cover;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 8px;
+    left: 49px;
+    object-fit: cover;
 }
 
 .frame .overlap-7 {
-  position: absolute;
-  width: 389px;
-  height: 224px;
-  top: 314px;
-  left: 34px;
+    position: absolute;
+    width: 389px;
+    height: 224px;
+    top: 314px;
+    left: 34px;
 }
 
 .frame .overlap-group-wrapper {
-  width: 389px;
-  position: absolute;
-  height: 224px;
-  top: 0;
-  left: 0;
+    width: 389px;
+    position: absolute;
+    height: 224px;
+    top: 0;
+    left: 0;
 }
 
 .frame .cardiology-img {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 10px;
-  left: 63px;
-  object-fit: cover;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 63px;
+    object-fit: cover;
 }
 
 .frame .overlap-8 {
-  position: absolute;
-  width: 389px;
-  height: 224px;
-  top: 322px;
-  left: 993px;
+    position: absolute;
+    width: 389px;
+    height: 224px;
+    top: 322px;
+    left: 993px;
 }
 
 .frame .pyschiatry-img {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 12px;
-  left: 57px;
-  object-fit: cover;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 12px;
+    left: 57px;
+    object-fit: cover;
 }
 
 .frame .overlap-9 {
-  position: absolute;
-  width: 438px;
-  height: 45px;
-  top: 849px;
-  left: 499px;
+    position: absolute;
+    width: 438px;
+    height: 45px;
+    top: 849px;
+    left: 499px;
 }
 
 .frame .rectangle-4 {
-  position: absolute;
-  width: 410px;
-  height: 45px;
-  bottom: 75px;
-  left: 0;
+    position: absolute;
+    width: 410px;
+    height: 45px;
+    bottom: 75px;
+    left: 0;
 }
 
 .frame .group {
-  position: absolute;
-  width: 314px;
-  height: 41px;
-  bottom: 75px;
-  left: 124px;
+    position: absolute;
+    width: 314px;
+    height: 41px;
+    bottom: 75px;
+    left: 124px;
 }
 
 
 .frame .overlap-10 {
-  position: absolute;
-  width: 25%;
-  height: 224px;
-  top: 950px;
-  left: 10px;
+    position: absolute;
+    width: 25%;
+    height: 224px;
+    top: 950px;
+    left: 10px;
 }
 
 .frame .overlap-11 {
-  position: absolute;
-  width: 25%;
-  height: 224px;
-  top: 950px;
-  left: 410px;
+    position: absolute;
+    width: 25%;
+    height: 224px;
+    top: 950px;
+    left: 410px;
 }
+
 .frame .overlap-12 {
-  position: absolute;
-  width: 25%;
-  height: 224px;
-  top: 950px;
-  left: 815px;
+    position: absolute;
+    width: 25%;
+    height: 224px;
+    top: 950px;
+    left: 815px;
 }
+
 .frame .im {
-  width: 340px;
-  height: 231px;
-  top: 0;
-  left: 23px;
-  object-fit: scale-down;
+    width: 340px;
+    height: 231px;
+    top: 0;
+    left: 23px;
+    object-fit: scale-down;
 }
+
 .frame .valeur {
-  top: -33px;
-  left: 670px;
-  font-family: "inter", Helvetica;
-  font-weight: 400;
-  background-color: #1034a6;
-  font-size: 30px;
-  letter-spacing: 0;
-  line-height: normal;
-  border-radius: 16px;
+    top: -33px;
+    left: 670px;
+    font-family: "inter", Helvetica;
+    font-weight: 400;
+    background-color: #1034a6;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-radius: 16px;
 }
+
 .frame .value {
-  top: -33px;
-  left: 670px;
-  font-family: "Inknut Antiqua, Helvetica";
-  font-weight: 400;
-  background-color: #1034a6;
-  color: #F0F8FF;
-  font-size: 30px;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: normal;
-  border-radius: 16px;
+    top: -33px;
+    left: 670px;
+    font-family: "Inknut Antiqua, Helvetica";
+    font-weight: 400;
+    background-color: #1034a6;
+    color: #F0F8FF;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: normal;
+    border-radius: 16px;
 }
+
 .frame .values {
-  position: absolute;
-  left: -125px;
-  top: 850px;
-  font-weight: 400;
-  color: #1034a6;
-  font-size: 55px;
-  letter-spacing: 0px;
-  /* background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-36.svg); */
-  background-color: #f0f8ff;
-  width: 1432px;
-  height: 84px;
+    position: absolute;
+    left: -125px;
+    top: 850px;
+    font-weight: 400;
+    color: #1034a6;
+    font-size: 55px;
+    letter-spacing: 0px;
+    /* background-image: url(https://c.animaapp.com/TUzTcqmt/img/rectangle-36.svg); */
+    background-color: #f0f8ff;
+    width: 1432px;
+    height: 84px;
 }
